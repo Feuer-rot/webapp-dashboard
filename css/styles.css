@@ -36,12 +36,12 @@ h1 {
 h1,
 header h3 {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin: 30px 15px;
 }
 
 header h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .web-font {
@@ -49,7 +49,7 @@ header h3 {
 }
 
 .bell-svg svg {
-    width: 30px;
+    width: 20px;
 }
 
 .bell-svg svg:hover {
@@ -75,7 +75,7 @@ header h3 {
 
 header img {
     border-radius: 50%;
-    max-height: 4rem;
+    max-height: 50px;
 }
 /*----NAV----*/
 nav {
@@ -89,7 +89,7 @@ nav:first-child {
 }
 
 nav svg {
-    width: 50px;
+    width: 30px;
     margin: 20px;
 }
 
@@ -218,8 +218,8 @@ select {
 
 .social-stats svg {
     fill: white;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 70px;
+    max-height: 70px;
     background-color: rgb(130, 130, 209);
     padding: 20px;
     border-radius: 50%;
@@ -234,7 +234,7 @@ select {
 }
 
 .social-stats .number {
-    font-size: 3.5rem;
+    font-size: 2.9rem;
     font-weight: 300;
     margin: -10px 0 5px;
     color: rgb(163, 163, 163);
@@ -306,7 +306,7 @@ button {
 input[type=checkbox] {
     -webkit-appearance: none;
     position: relative;
-    width: 110px;
+    width: 95px;
     height: 35px;
     border-radius: 25px;
     background-color: #ccc;
@@ -346,7 +346,7 @@ input[type=checkbox]:checked::before {
 }
 
 label {
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -487,14 +487,14 @@ select[name=timezone] {
     }
 
     .recent-member p {
-        width: 85%;
+        width: 80%;
     }
 
     .recent-member p::after {
         content: ">";
         float: right;
         color: rgb(77, 77, 118);
-        font-size: 1.7rem;
+        font-size: 1rem;
         position: relative;
         top: -15px;
     }
@@ -546,7 +546,12 @@ select[name=timezone] {
     }
 
     .recent-member p {
-        width: 80%;
+        width: 75%;
+    }
+
+    .recent-member p,
+    .new-member p {
+        font-size: .8rem;
     }
 
     .recent-member hr {
@@ -577,7 +582,7 @@ select[name=timezone] {
     }
 
     .switch {
-        width: 65%;
+        width: 70%;
     }
 
     select[name=timezone] {

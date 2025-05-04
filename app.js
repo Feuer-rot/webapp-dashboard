@@ -97,9 +97,13 @@ const searchUser = document.querySelector("input[type=search]");
 const MessageUser = document.querySelector("textarea");
 
  sendBtn.addEventListener('click', e => {
-  if (searchUser.value === "" || MessageUser.value === "" ) {
-      alert("A user must be selected and the message can't be empty");
-    } else {
+  if (searchUser.value === "" && MessageUser.value === "") {
+    alert("A user must be selected and the message can't be empty");
+    } else if (searchUser.value === "") {
+      alert("A user must be selected");
+    } else if  (MessageUser.value === "") {
+      alert("The message can't be empty");
+    }else {
       alert("Your message has been sent");
     }
   });
